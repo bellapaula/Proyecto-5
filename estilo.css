@@ -1,0 +1,16 @@
+.card{
+    margin: auto;
+    margin-top: 5px;
+}
+.animalitos{
+    display: flex;
+    width: 700px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+body {
+    background-image: url(https://www.bing.com/images/blob?bcid=TmnkgMzlt9wDqxcxoNWLuD9SqbotqVTdP1I);
+    background-size: 10rem;
+    
+  }
