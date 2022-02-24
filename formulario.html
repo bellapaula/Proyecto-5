@@ -8,22 +8,23 @@
     <link rel="stylesheet" href="estiloFormulario.css">
 </head>
 <body>
-    <div>
+  <a href="index.html" type="button" class="btn btn-close" aria-label="Close">X</a> 
+    <form action="/my-handling-form-page" method="post">
+      <div>
         <h1>Fiche de evaluación pre-adopción
         </h1>
     </div>
-    <form action="/my-handling-form-page" method="post">
-
     <ul>
      <li>
        <label for="name">Nombre:</label>
        <input type="text" id="name" name="user_name" />
      </li>
+     <br>
      <li>
        <label for="mail">Correo electrónico:</label>
        <input type="email" id="mail" name="user_email" />
      </li>
-    
+    <br>
       <div>
         <form>
           <div>
@@ -31,58 +32,70 @@
       <BR>
       <TEXTAREA name = comentario rows = 2 cols = 40 wrap = virtual ></TEXTAREA>
           </div>
+          <br>
           <div>
       <label> 2.- ¿cómo se enteró de nuestra pagina?: </label>
-      <INPUT type =checkbox name=archivo value="Verdadero">Por volantes
-      <INPUT type =checkbox name=archivo value="Verdadero">Por publicidad digital
-      <INPUT type =checkbox name=archivo value="Verdadero">Por un amigo/conocido
+      <INPUT type =checkbox name=archivo value="Verdadero">- Por volantes
+      <INPUT type =checkbox name=archivo value="Verdadero">- Por publicidad digital
+      <INPUT type =checkbox name=archivo value="Verdadero">- Por un amigo/conocido
           </div>
+          <br>
           <div>
             <label> 3. ¿cuánto días libres dispone a la semana? : </label>
-      <INPUT type = radio name = dias value = "7" >5 días o más
-      <INPUT type = radio name = dias value = "3" >de 4 a 2 días
-      <INPUT type = radio name = dias value = "0" >1 día o menos
+      <INPUT type = radio name = dias value = "7" >- 5 días o más
+      <INPUT type = radio name = dias value = "3" >- de 4 a 2 días
+      <INPUT type = radio name = dias value = "0" >- 1 día o menos
           </div>
+          <br>
           <div>
             <label> 4.¿cuánta cantidad de croquetas planea comprar semanalmente? : </label>
-      <INPUT type = radio name = kg value = "5" > 3 Kg o más
-      <INPUT type = radio name = kg value = "3" > 2 Kg
-      <INPUT type = radio name = ks value = "0" > 1 Kg o menos
+      <INPUT type = radio name = kg value = "5" >- 3 Kg o más
+      <INPUT type = radio name = kg value = "3" >- 2 Kg
+      <INPUT type = radio name = ks value = "0" >- 1 Kg o menos
           </div>
+          <br>
           <div>
             <label>  5. ¿qué tamaño de raza desea adoptar? : </label>
       <SELECT name = tamaño1 >
-      <OPTION>pequeña
-      <OPTION>mediana
-      <OPTION>grande
+      <OPTION>- pequeña
+      <OPTION>- mediana
+      <OPTION>- grande
       </SELECT>
           </div>
+          <br>
           <div>
             <label>  6. su hogar es de tamaño : </label>
       <SELECT name = tamaño2 >
-      <OPTION>pequeño
-      <OPTION>mediano
-      <OPTION>grande
+      <OPTION>- pequeño
+      <OPTION>- mediano
+      <OPTION>- grande
       </SELECT>
+      </div>
+      <br>
       <div>
         <label> 7.¿actualmente vive solo/a? : </label>
-  <INPUT type = radio name = solo value = "5" >Si
-  <INPUT type = radio name = nosolo value = "3" >No
+  <INPUT type = radio name = solo value = "5" >- Si
+  <INPUT type = radio name = nosolo value = "3" >- No
       </div>
+      <br>
       <div>
         <label> 7.si su respuesta fue NO ¿cuenta con niños en casa? : </label>
-  <INPUT type = radio name = solo value = "3" >Si
-  <INPUT type = radio name = nosolo value = "5" >No
+  <INPUT type = radio name = solo value = "3" >- Si
+  <INPUT type = radio name = nosolo value = "5" >- No
       </div>
-          <div>
+      <br>
+    
             <div>
                 <label> 7.¿esta deacuerdo con nuestro lema "por cada adopción, una donación"? : </label>
-          <INPUT type = radio name = solo value = "5" >Si
-          <INPUT type = radio name = nosolo value = "3" >No
+          <INPUT type = radio name = solo value = "5" >- Si
+          <INPUT type = radio name = nosolo value = "3" >- No
               </div>
-      <INPUT type = submit value = "Enviar" >
-      <INPUT type = reset value = "Borrar" >
-          </div>
+              <br>
+      <div >       
+      <INPUT class="botones" type = submit value = "Enviar" >
+      <INPUT class="botones" type = reset value = "Borrar" >
+      </div> 
+        
       </form>
       
       </div>

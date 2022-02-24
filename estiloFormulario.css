@@ -1,11 +1,19 @@
+body{
+  background: url(https://www.bing.com/images/blob?bcid=TmnkgMzlt9wDqxcxoNWLuD9SqbotqVTdP1I);
+}
 form {
     margin: 0 auto;
     width: 400px;
-    padding: 120px;
+    padding: 100px;
     border: 1px solid #CCC;
     border-radius: 50px;
+    background-color: burlywood;
   }
-  
+
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
   ul {
     list-style: none;
     padding: 0;
@@ -17,16 +25,21 @@ form {
   }
   
   label {
-    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: right;
+    font-weight: 400px;
+    font-weight: bold;
+
   }
   
   input,
   textarea {
     font: 20px sans-serif;
-    width: 200px;
+    width: 400px;
+
     box-sizing: border-box;
     border: 1px solid #999;
+    border-radius: 9px;
   }
   
   input:focus,
@@ -39,10 +52,10 @@ form {
     height: 100px;
   }
   
-  .button {
-    padding-left: 90px;
-  }
-  
-  button {
+.botones {
     margin-left: 100px;
-  }
+    background-color: rgb(206, 130, 67);
+    text-align: center;
+    width: 70px;
+}
+

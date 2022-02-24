@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://www.bing.com/images/blob?bcid=TmnkgMzlt9wDqxcxoNWLuD9SqbotqVTdP1I);
+}
+.card {
+    background-color: rgba(201, 135, 87, 0.877);
+    border-color: black;
+    border-radius: 9px;
+    width: 300px ;
+    height: 160px;
+    margin: auto;
+    border: 5px;
+    padding: 20px;
+}
+
+button{
+    background-color: black;
+    color: beige;
+    border-radius: 5px;
+    margin: auto;
+    width: 120px;
+
+}
+
+p{
+    font-weight: bold;
+}
+
