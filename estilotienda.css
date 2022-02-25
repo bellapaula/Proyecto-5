@@ -1,0 +1,47 @@
+.card{
+    background-color: rgba(201, 135, 87, 0.877);
+    border-color: black;
+    border-radius: 9px;
+    width: 400px ;
+    height: 650px;
+    margin: auto;
+    border: 5px;
+    padding: 20px;
+    margin-bottom: 1rem;
+}
+
+.img-tamaño{
+    width: 280px;
+    height: auto;
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/vectors/bones-and-paws-vector-id466464990);
+    background-size: 30rem;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card a{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: auto;
+    color: chocolate;
+    display: block;
+    text-decoration: none;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    line-height: 1rem;
+    justify-content: center;
+}
+
+
